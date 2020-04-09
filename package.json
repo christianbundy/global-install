@@ -1,0 +1,22 @@
+{
+  "name": "global-install",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "common-good",
+    "fix": "common-good fix"
+  },
+  "keywords": [],
+  "author": "Christian Bundy <christianbundy@fraction.io>",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "common-good": "^2.0.3"
+  },
+  "bin": {
+    "global-install": "index.js"
+  },
+  "dependencies": {
+    "cross-spawn": "^7.0.2"
+  },
+  "description": ""
+}
